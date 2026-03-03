@@ -130,3 +130,21 @@ tr:hover {
     color: red;
     font-weight: bold;
 }
+/* Responsive */
+@media (max-width: 600px) {
+
+    header {
+        font-size: 18px;
+        padding: 14px;
+    }
+
+    .container {
+        padding: 18px;
+        margin: 20px auto;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+}
