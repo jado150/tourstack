@@ -46,7 +46,7 @@ if(isset($_POST['submit'])){
 <body>
 
 <header>
-    <h2>Create Booking</h2>
+    <h1>Create Booking</h1>
 </header>
 
 <div class="container">
