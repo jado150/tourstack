@@ -66,7 +66,7 @@ if(isset($_POST['submit'])){
             <option value="double">Double</option>
             <option value="twin">Twin</option>
             <option value="triple">Triple</option>
-            <option value="suite">Suite</option>
+            <option value="suite">Suite.</option>
         </select><br><br>
 
         
