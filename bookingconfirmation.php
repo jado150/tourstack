@@ -7,10 +7,10 @@ if(!isset($_GET['B_Id'])){
     exit();
 }
 
-$id = (int)$_GET['B_Id'];
+$idNo = (int)$_GET['B_Id'];
 
 
-$sql = "SELECT * FROM bookings WHERE B_Id = $id";
+$sql = "SELECT * FROM bookings WHERE B_Id = $idNo";
 $result = mysqli_query($conn, $sql);
 
 if(mysqli_num_rows($result) == 0){
