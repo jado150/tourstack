@@ -91,7 +91,7 @@
 
     <p>
         &copy; <?php echo date("Y"); ?> TourStack System<br>
-        All Rights Reserved
+        All Rights Reserved.
     </p>
 
     <p>
