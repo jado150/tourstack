@@ -75,7 +75,7 @@ if(isset($_POST['submit'])){
         
         <p><strong>Estimated Total:</strong> <span id="total">0</span> RWF</p>
 
-        <button type="submit" name="submit">Submit Booking</button>
+        <button type="submit" name="submit">Submit_Booking</button>
     </form>
 </div>
 
