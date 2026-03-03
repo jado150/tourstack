@@ -4,7 +4,7 @@ include "db_connection.php";
 
 $room_prices = [
     "single" => 20000,
-    "double" => 35000,
+    "double" => 30000,
     "twin"   => 35000,
     "triple" => 50000,
     "suite"  => 80000
