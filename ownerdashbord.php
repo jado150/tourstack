@@ -16,7 +16,7 @@ $result = mysqli_query($conn, $sql);
 <html>
 <head>
     <title>Owner Dashboard</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
