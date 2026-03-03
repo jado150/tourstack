@@ -33,7 +33,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 <body>
 
 <header>
-    <h2>Only The Owner LogsIn Here</h2>
+    <h2>Administrator LogIn</h2>
 </header>
 
 <div class="container">

@@ -75,7 +75,7 @@ $result = mysqli_query($conn, $sql);
 
                     <option value="confirmed"
                     <?php if (strtolower($row['statuses']) == "confirmed") echo "selected"; ?>>
-                        Confirmed
+                        Approved
                     </option>
 
                     <option value="cancelled"
