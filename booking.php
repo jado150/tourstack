@@ -13,7 +13,7 @@ $room_prices = [
 if(isset($_POST['submit'])){
 
     $guest_name = mysqli_real_escape_string($conn, $_POST['guest_name']);
-    $phone = mysqli_real_escape_string($conn, $_POST['phone']);
+    $phoneNumber = mysqli_real_escape_string($conn, $_POST['phone']);
     $nights = (int) $_POST['nights'];
     $room_type = mysqli_real_escape_string($conn, $_POST['room_type']);
 
@@ -25,7 +25,7 @@ if(isset($_POST['submit'])){
 
     $query = "INSERT INTO bookings 
         (guest_name, phone, room_type, nights, price_per_night, total_cost, statuses)
-        VALUES ('$guest_name', '$phone', '$room_type', '$nights', '$price', '$total', 'pending')";
+        VALUES ('$guest_name', '$phoneNumber', '$room_type', '$nights', '$price', '$total', 'pending')";
 
     if(mysqli_query($conn, $query)){
         header("Location: bookingconfirmation.php?B_Id=" . mysqli_insert_id($conn));
