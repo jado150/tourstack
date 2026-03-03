@@ -13,7 +13,7 @@
 <header>
     <h2>TourStack Booking Preview</h2>
 </header>
-
+<p>Simple • Fast • Reliable</p>
 <div class="container">
     <h3>Welcome to TourStack</h3>
     <p>
@@ -33,5 +33,6 @@
         <button>Owner Login</button>
     </a>
 </div>
+<?php echo date("Y"); ?>
 </body>
 </html>
