@@ -31,7 +31,7 @@ $result = mysqli_query($conn, $sql);
     </a>
 
     <h3>All Bookings</h3>
-display bookings in a table with options to update status in perfect way
+<!--display bookings in a table with options to update status in perfect way-->
     <table border="1" width="100%" cellpadding="8">
 
         <tr>
@@ -80,7 +80,7 @@ display bookings in a table with options to update status in perfect way
 
                     <option value="cancelled"
                     <?php if (strtolower($row['statuses']) == "cancelled") echo "selected"; ?>>
-                        Cancelled
+                        Denied
                     </option>
 
                 </select>
