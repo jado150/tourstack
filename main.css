@@ -71,17 +71,62 @@ button:hover {
     background: linear-gradient(to right, #219150, #1e8449);
     transform: scale(1.02);
 }
+a {
+    color: #27ae60;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tables */
+.table-wrapper {
+    overflow-x: auto;
+}
 
 table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
 }
 
-table, th, td {
+th {
+    background: #2c3e50;
+    color: white;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 12px;
     border: 1px solid #ddd;
-    padding: 8px;
 }
 
-.status-pending { color: orange; }
-.status-confirmed { color: green; }
-.status-cancelled { color: red; }
+/* Zebra Stripes */
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Hover Effect */
+tr:hover {
+    background: #ecf9f1;
+}
+
+/* Status Colors */
+.status-pending {
+    color: orange;
+    font-weight: bold;
+}
+
+.status-confirmed {
+    color: green;
+    font-weight: bold;
+}
+
+.status-cancelled {
+    color: red;
+    font-weight: bold;
+}
