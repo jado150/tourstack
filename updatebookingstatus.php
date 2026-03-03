@@ -29,7 +29,7 @@ if (isset($_POST['id']) && isset($_POST['status'])) {
             header("Location: ownerdashboard.php");
             exit();
         } else {
-            echo "Error updating status!";
+            echo "Sorry you con't update status!";
         }
 
         mysqli_stmt_close($stmt);
